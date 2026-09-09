@@ -83,7 +83,7 @@ body {
   background-color: var(--bg-light);
   line-height: 1.7;
   overflow-x: hidden;
-  font-size: 16px;
+  font-size: clamp(1rem, 2vw, 1.15rem);
 }
 
 h1,
